@@ -1,0 +1,58 @@
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.NamedStoredProcedureQuery;
+import javax.persistence.ParameterMode;
+import javax.persistence.StoredProcedureParameter;
+import java.util.Date;
+
+@Entity
+@NamedStoredProcedureQuery(
+    name = "Report.favoriteByYear",
+    procedureName = "spFavoriteByYear",
+    resultClasses = { Report.class },
+    parameters = {
+        @StoredProcedureParameter(mode = ParameterMode.IN, name = "Year", type = Integer.class)
+    }
+)
+public class Report {
+    @Id
+    private Long id; // Dummy ID, if necessary for Hibernate, or use a composite key
+    
+    private String group;
+    private Long likes;
+    private Date newest;
+    private Date oldest;
+
+    // Getters and setters
+    public String getGroup() {
+        return group;
+    }
+
+    public void setGroup(String group) {
+        this.group = group;
+    }
+
+    public Long getLikes() {
+        return likes;
+    }
+
+    public void setLikes(Long likes) {
+        this.likes = likes;
+    }
+
+    public Date getNewest() {
+        return newest;
+    }
+
+    public void setNewest(Date newest) {
+        this.newest = newest;
+    }
+
+    public Date getOldest() {
+        return oldest;
+    }
+
+    public void setOldest(Date oldest) {
+        this.oldest = oldest;
+    }
+}

@@ -1,0 +1,51 @@
+package controller;
+
+import java.io.IOException;
+import java.util.List;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import models.Product;
+
+@WebServlet("/cart/delete/*")
+public class CartServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("cart.jsp").forward(request, response);
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String action = request.getParameter("action");
+        
+        System.out.println("vao day");
+        return;
+        HttpSession session = request.getSession();
+        List<Product> cartItems = (List<Product>) session.getAttribute("cartItems");
+        System.out.println(cartItems.size());
+        try {
+            int id = Integer.parseInt(request.getParameter("id"));
+            if ("delete".equals(action)) {
+                cartItems.removeIf(product -> product.getId() == id);
+                session.setAttribute("cartItems", cartItems);
+                response.sendRedirect("cart");
+            } else if ("edit".equals(action)) {
+                int quantity = Integer.parseInt(request.getParameter("quantity"));
+                for (Product product : cartItems) {
+                    if (product.getId() == id) {
+                        product.setQuantity(quantity);
+                        break;
+                    }
+                }
+                session.setAttribute("cartItems", cartItems);
+                response.sendRedirect("cart");
+            }
+        } catch (NumberFormatException e) {
+            request.setAttribute("message", "Invalid product ID or quantity.");
+            request.getRequestDispatcher("cart.jsp").forward(request, response);
+        }
+    }
+}

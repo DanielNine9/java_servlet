@@ -1,0 +1,14 @@
+<div class="w-50 mx-auto border p-4">
+<h3 class="text-center text-danger">Register</h3>
+	<form action="/lab7/auth/register" method="post">
+		<label>Fullname</label> 
+		<input name="username" class="form-control"> 
+		<label>Username</label> 
+		<input name="username" class="form-control"> 
+		<label>Password</label>
+		<input name="password" class="form-control">
+		<label>Confirm Password</label>
+		<input class="form-control">
+		<button class="btn btn-primary my-2">Register</button>
+	</form>
+</div>

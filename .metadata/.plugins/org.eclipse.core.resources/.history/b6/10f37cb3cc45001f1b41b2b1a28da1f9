@@ -1,0 +1,7 @@
+<div class="w-50 mx-auto border p-4">
+	<form action="">
+		<label>Username</label> <input class="form-control"> <label>Password</label>
+		<input class="form-control">
+		<button class="btn btn-primary my-2">Login</button>
+	</form>
+</div>

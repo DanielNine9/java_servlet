@@ -1,0 +1,10 @@
+package filter;
+
+import javax.servlet.http.HttpFilter;
+
+
+WebFilter("/lang/change/*")
+
+public class LangFilter extends HttpFilter {
+
+}
