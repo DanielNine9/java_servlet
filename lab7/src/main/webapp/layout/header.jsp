@@ -22,7 +22,7 @@
 				<c:when
 					test="${not empty sessionScope.user && sessionScope.user.getAdmin()}">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item"><a class="nav-link active"
+						<li id="management" class="nav-item"><a class="nav-link active"
 							aria-current="page" href="/lab7/user/index">Quản lý user</a></li>
 					</ul>
 				</c:when>
@@ -32,7 +32,7 @@
 			<c:choose>
 				<c:when test="${not empty sessionScope.user}">
 					<form method="post" class="d-flex gap-2">
-						<button formaction="/lab7/auth/logout" class="btn btn-primary">Đăng
+						<button id="logout" formaction="/lab7/auth/logout" class="btn btn-primary">Đăng
 							xuất</button>
 					</form>
 				</c:when>

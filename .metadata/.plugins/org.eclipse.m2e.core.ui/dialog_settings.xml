@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\dinhh\OneDrive\Desktop\java\java_servlet\lab7"/>
 			<item value="C:\Users\dinhh\Desktop\java\Test\src\module-info.java"/>
 			<item value="C:\Users\dinhh\Desktop\java\Test\src"/>
 		</list>
@@ -46,10 +47,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="asm2"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="asm2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -65,6 +68,9 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="huydqpc07859_09082024"/>
+			<item value="lab3_"/>
+			<item value="finaltest"/>
 			<item value="lab7"/>
 			<item value="lab8"/>
 			<item value="lab6"/>
@@ -79,6 +85,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="huydqpc07859_09082024"/>
+			<item value="lab3_"/>
+			<item value="finaltest"/>
 			<item value="lab7"/>
 			<item value="lab8"/>
 			<item value="lab6"/>

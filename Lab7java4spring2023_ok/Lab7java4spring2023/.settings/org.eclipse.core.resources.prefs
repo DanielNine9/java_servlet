@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/com/poly/dao/DAO_User.java=UTF-8
+encoding//src/com/poly/fiter/AuthFilter.java=UTF-8
+encoding//src/com/poly/fiter/SessionExpirationFilter.java=UTF-8
+encoding//src/com/poly/servlet/Bai3_LoginServlet.java=UTF-8
+encoding//src/com/poly/utils/XCookie.java=UTF-8
+encoding//src/com/poly/utils/XForm.java=UTF-8
+encoding//src/com/poly/utils/XScope.java=UTF-8

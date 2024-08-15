@@ -3,8 +3,6 @@ go
 
 use polyoe_new
 
-
-
 CREATE TABLE USERS(
     ID NVARCHAR(50) primary key,
     PASSWORD NVARCHAR(50),
@@ -56,7 +54,7 @@ VALUES
 ('video4', 'Normalization in Databases', 'poster4.png', 'A video explaining normalization.', 250, 1),
 ('video5', 'SQL Performance Tuning', 'poster5.png', 'A video on optimizing SQL queries.', 300, 1),
 ('video6', 'Transactions and Concurrency', 'poster6.png', 'A video on handling transactions and concurrency in SQL.', 350, 1),
-('video7', 'Introduction to NoSQL', 'poster7.png', 'An introductory video on NoSQL databases.', 400, 1);
+('video7', 'Introduction to NoSQL', 'poster7.png', 'An introductory video on NoSQL databases.', 400, 1),
 ('java1', 'Java for beginners', 'poster1.png', 'Java for beginners, give you understand for all.', 100, 1)
 
 -- Insert data into the Favorites table

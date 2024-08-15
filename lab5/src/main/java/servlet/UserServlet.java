@@ -18,7 +18,7 @@ import dao.UserDAO;
 
 @WebServlet({ "/user/index", "/user/edit/*", "/user/create", "/user/update", "/user/delete" })
 public class UserServlet extends HttpServlet {
-	private static final int DEFAULT_PAGE_SIZE = 5;
+	private static final int DEFAULT_PAGE_SIZE = 3;
 
 
 	@Override

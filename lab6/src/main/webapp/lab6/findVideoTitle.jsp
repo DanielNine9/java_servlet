@@ -17,7 +17,7 @@
 	
 	<%@include file="../layout/header.jsp"%>
 	<form class="p-4 w-50 mx-auto border my-2" action="${url}/find-videoTitle" method="post" class="border p-4 mx-auto w-50">
-		<h3 class="text-center text-danger">Search video by video title</h3>
+		<h3 class="text-center text-danger">Search video by video title has favorites</h3>
 		<input class="form-control" placeholder="Typing..." class="form-control" required name="keyword">
 		<button class="btn btn-primary my-2">Search</button>
 	</form>

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="34" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-03T16:16:28 ICT" name="Default suite" finished-at="2024-08-03T16:17:48 ICT" duration-ms="80338">
+    <groups>
+    </groups>
+    <test started-at="2024-08-03T16:16:28 ICT" name="Default test" finished-at="2024-08-03T16:17:48 ICT" duration-ms="80338">
+      <class name="test.TestWeb">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:28 ICT" name="setup" finished-at="2024-08-03T16:16:31 ICT" duration-ms="3490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:31 ICT" name="before" finished-at="2024-08-03T16:16:32 ICT" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="checkTitle()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:32 ICT" name="checkTitle" finished-at="2024-08-03T16:16:32 ICT" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:32 ICT" name="afterMethod" finished-at="2024-08-03T16:16:32 ICT" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:32 ICT" name="afterMethod1" finished-at="2024-08-03T16:16:32 ICT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:32 ICT" name="before" finished-at="2024-08-03T16:16:32 ICT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="checkTitleUserManagement()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:32 ICT" name="checkTitleUserManagement" finished-at="2024-08-03T16:16:52 ICT" duration-ms="19777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitleUserManagement -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:52 ICT" name="afterMethod" finished-at="2024-08-03T16:16:52 ICT" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:52 ICT" name="afterMethod1" finished-at="2024-08-03T16:16:52 ICT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:52 ICT" name="before" finished-at="2024-08-03T16:16:52 ICT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginSuccessfullyChecTitle()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:52 ICT" name="testLoginSuccessfullyChecTitle" finished-at="2024-08-03T16:16:53 ICT" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessfullyChecTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:53 ICT" name="afterMethod" finished-at="2024-08-03T16:16:54 ICT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:54 ICT" name="afterMethod1" finished-at="2024-08-03T16:16:54 ICT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:54 ICT" name="before" finished-at="2024-08-03T16:16:54 ICT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginSuccessfullyCheckEnterManagement()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:54 ICT" name="testLoginSuccessfullyCheckEnterManagement" finished-at="2024-08-03T16:16:55 ICT" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessfullyCheckEnterManagement -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:55 ICT" name="afterMethod" finished-at="2024-08-03T16:16:55 ICT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:55 ICT" name="afterMethod1" finished-at="2024-08-03T16:16:55 ICT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:55 ICT" name="before" finished-at="2024-08-03T16:16:55 ICT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginSuccessfullyCheckManagement()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:55 ICT" name="testLoginSuccessfullyCheckManagement" finished-at="2024-08-03T16:16:56 ICT" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessfullyCheckManagement -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:56 ICT" name="afterMethod" finished-at="2024-08-03T16:16:56 ICT" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:56 ICT" name="afterMethod1" finished-at="2024-08-03T16:16:56 ICT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:56 ICT" name="before" finished-at="2024-08-03T16:16:56 ICT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginSuccessfullyCheckTitle()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:56 ICT" name="testLoginSuccessfullyCheckTitle" finished-at="2024-08-03T16:16:57 ICT" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessfullyCheckTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:57 ICT" name="afterMethod" finished-at="2024-08-03T16:16:57 ICT" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:57 ICT" name="afterMethod1" finished-at="2024-08-03T16:16:57 ICT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:57 ICT" name="before" finished-at="2024-08-03T16:16:58 ICT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginSuccessfullyCheckWelcome()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:58 ICT" name="testLoginSuccessfullyCheckWelcome" finished-at="2024-08-03T16:16:59 ICT" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessfullyCheckWelcome -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:59 ICT" name="afterMethod" finished-at="2024-08-03T16:16:59 ICT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:59 ICT" name="afterMethod1" finished-at="2024-08-03T16:16:59 ICT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:59 ICT" name="before" finished-at="2024-08-03T16:16:59 ICT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginWithAccountHasNotBeenReigstered()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:16:59 ICT" name="testLoginWithAccountHasNotBeenReigstered" finished-at="2024-08-03T16:17:00 ICT" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithAccountHasNotBeenReigstered -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:00 ICT" name="afterMethod" finished-at="2024-08-03T16:17:00 ICT" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:00 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:00 ICT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:00 ICT" name="before" finished-at="2024-08-03T16:17:00 ICT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginWithAccountHasNotBeenReigstered1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:00 ICT" name="testLoginWithAccountHasNotBeenReigstered1" finished-at="2024-08-03T16:17:01 ICT" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithAccountHasNotBeenReigstered1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:01 ICT" name="afterMethod" finished-at="2024-08-03T16:17:01 ICT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:01 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:01 ICT" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:01 ICT" name="before" finished-at="2024-08-03T16:17:01 ICT" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginWithAccountHasNotBeenReigstered2()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:01 ICT" name="testLoginWithAccountHasNotBeenReigstered2" finished-at="2024-08-03T16:17:02 ICT" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithAccountHasNotBeenReigstered2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:02 ICT" name="afterMethod" finished-at="2024-08-03T16:17:02 ICT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:02 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:02 ICT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:02 ICT" name="before" finished-at="2024-08-03T16:17:02 ICT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginWithAccountHasNotBeenReigstered3()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:02 ICT" name="testLoginWithAccountHasNotBeenReigstered3" finished-at="2024-08-03T16:17:03 ICT" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithAccountHasNotBeenReigstered3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:03 ICT" name="afterMethod" finished-at="2024-08-03T16:17:03 ICT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:03 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:03 ICT" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:03 ICT" name="before" finished-at="2024-08-03T16:17:03 ICT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginWithEmptyPassword()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:03 ICT" name="testLoginWithEmptyPassword" finished-at="2024-08-03T16:17:04 ICT" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:04 ICT" name="afterMethod" finished-at="2024-08-03T16:17:04 ICT" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:04 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:04 ICT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:04 ICT" name="before" finished-at="2024-08-03T16:17:05 ICT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginWithEmptyPasswordAndEmptyUsername()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:05 ICT" name="testLoginWithEmptyPasswordAndEmptyUsername" finished-at="2024-08-03T16:17:05 ICT" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyPasswordAndEmptyUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:05 ICT" name="afterMethod" finished-at="2024-08-03T16:17:05 ICT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:05 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:05 ICT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:05 ICT" name="before" finished-at="2024-08-03T16:17:06 ICT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginWithEmptyUsername()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:06 ICT" name="testLoginWithEmptyUsername" finished-at="2024-08-03T16:17:06 ICT" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:06 ICT" name="afterMethod" finished-at="2024-08-03T16:17:06 ICT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:06 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:07 ICT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:07 ICT" name="before" finished-at="2024-08-03T16:17:07 ICT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testLoginWr()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:07 ICT" name="testLoginWr" finished-at="2024-08-03T16:17:07 ICT" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWr -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:07 ICT" name="afterMethod" finished-at="2024-08-03T16:17:07 ICT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:07 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:07 ICT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:07 ICT" name="before" finished-at="2024-08-03T16:17:08 ICT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testRegister()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:08 ICT" name="testRegister" finished-at="2024-08-03T16:17:09 ICT" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:09 ICT" name="afterMethod" finished-at="2024-08-03T16:17:09 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:09 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:09 ICT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:09 ICT" name="before" finished-at="2024-08-03T16:17:09 ICT" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testRegisterAllEmpty()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:09 ICT" name="testRegisterAllEmpty" finished-at="2024-08-03T16:17:09 ICT" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterAllEmpty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:09 ICT" name="afterMethod" finished-at="2024-08-03T16:17:09 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:09 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:10 ICT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:10 ICT" name="before" finished-at="2024-08-03T16:17:10 ICT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testRegisterFullNameEmpty()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:10 ICT" name="testRegisterFullNameEmpty" finished-at="2024-08-03T16:17:11 ICT" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterFullNameEmpty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:11 ICT" name="afterMethod" finished-at="2024-08-03T16:17:11 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:11 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:11 ICT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:11 ICT" name="before" finished-at="2024-08-03T16:17:11 ICT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testRegisterNotEqualPasswordAndConfirm()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:11 ICT" name="testRegisterNotEqualPasswordAndConfirm" finished-at="2024-08-03T16:17:12 ICT" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterNotEqualPasswordAndConfirm -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:12 ICT" name="afterMethod" finished-at="2024-08-03T16:17:12 ICT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:12 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:12 ICT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:12 ICT" name="before" finished-at="2024-08-03T16:17:12 ICT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testRegisterPasswordEmpty()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:12 ICT" name="testRegisterPasswordEmpty" finished-at="2024-08-03T16:17:13 ICT" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPasswordEmpty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:13 ICT" name="afterMethod" finished-at="2024-08-03T16:17:13 ICT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:13 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:13 ICT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:13 ICT" name="before" finished-at="2024-08-03T16:17:13 ICT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testRegisterUsernameEmpty()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:13 ICT" name="testRegisterUsernameEmpty" finished-at="2024-08-03T16:17:14 ICT" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterUsernameEmpty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:14 ICT" name="afterMethod" finished-at="2024-08-03T16:17:14 ICT" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:14 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:15 ICT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:15 ICT" name="before" finished-at="2024-08-03T16:17:15 ICT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testResetButton()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:15 ICT" name="testResetButton" finished-at="2024-08-03T16:17:17 ICT" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResetButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:17 ICT" name="afterMethod" finished-at="2024-08-03T16:17:17 ICT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:17 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:17 ICT" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:17 ICT" name="before" finished-at="2024-08-03T16:17:17 ICT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testSession()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:17 ICT" name="testSession" finished-at="2024-08-03T16:17:20 ICT" duration-ms="2177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSession -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:20 ICT" name="afterMethod" finished-at="2024-08-03T16:17:20 ICT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:20 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:20 ICT" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:20 ICT" name="before" finished-at="2024-08-03T16:17:20 ICT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormSubmission()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:20 ICT" name="testUserFormSubmission" finished-at="2024-08-03T16:17:22 ICT" duration-ms="2585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormSubmission -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:22 ICT" name="afterMethod" finished-at="2024-08-03T16:17:23 ICT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:23 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:23 ICT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:23 ICT" name="before" finished-at="2024-08-03T16:17:23 ICT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormSubmissionAllEmpty()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:23 ICT" name="testUserFormSubmissionAllEmpty" finished-at="2024-08-03T16:17:25 ICT" duration-ms="2629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormSubmissionAllEmpty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:25 ICT" name="afterMethod" finished-at="2024-08-03T16:17:26 ICT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:26 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:26 ICT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:26 ICT" name="before" finished-at="2024-08-03T16:17:26 ICT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormSubmissionConflict()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:26 ICT" name="testUserFormSubmissionConflict" finished-at="2024-08-03T16:17:31 ICT" duration-ms="5254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormSubmissionConflict -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:31 ICT" name="afterMethod" finished-at="2024-08-03T16:17:31 ICT" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:31 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:32 ICT" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:32 ICT" name="before" finished-at="2024-08-03T16:17:32 ICT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormSubmissionEmailEmpty()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:32 ICT" name="testUserFormSubmissionEmailEmpty" finished-at="2024-08-03T16:17:35 ICT" duration-ms="3163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormSubmissionEmailEmpty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:35 ICT" name="afterMethod" finished-at="2024-08-03T16:17:35 ICT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:35 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:36 ICT" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:36 ICT" name="before" finished-at="2024-08-03T16:17:36 ICT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormSubmissionFullnameEmpty()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:36 ICT" name="testUserFormSubmissionFullnameEmpty" finished-at="2024-08-03T16:17:39 ICT" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormSubmissionFullnameEmpty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:39 ICT" name="afterMethod" finished-at="2024-08-03T16:17:39 ICT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:39 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:39 ICT" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:39 ICT" name="before" finished-at="2024-08-03T16:17:39 ICT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormSubmissionPasswordEmpty()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:39 ICT" name="testUserFormSubmissionPasswordEmpty" finished-at="2024-08-03T16:17:41 ICT" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormSubmissionPasswordEmpty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:41 ICT" name="afterMethod" finished-at="2024-08-03T16:17:41 ICT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:41 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:42 ICT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:42 ICT" name="before" finished-at="2024-08-03T16:17:42 ICT" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormSubmissionUsernameEmpty()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:42 ICT" name="testUserFormSubmissionUsernameEmpty" finished-at="2024-08-03T16:17:44 ICT" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormSubmissionUsernameEmpty -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:44 ICT" name="afterMethod" finished-at="2024-08-03T16:17:44 ICT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:44 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:44 ICT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:44 ICT" name="before" finished-at="2024-08-03T16:17:44 ICT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormWithUserHasNotBeernREgistered()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:44 ICT" name="testUserFormWithUserHasNotBeernREgistered" finished-at="2024-08-03T16:17:45 ICT" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormWithUserHasNotBeernREgistered -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:45 ICT" name="afterMethod" finished-at="2024-08-03T16:17:45 ICT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:45 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:45 ICT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:45 ICT" name="before" finished-at="2024-08-03T16:17:45 ICT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormWithUserRole()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:45 ICT" name="testUserFormWithUserRole" finished-at="2024-08-03T16:17:46 ICT" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormWithUserRole -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:46 ICT" name="afterMethod" finished-at="2024-08-03T16:17:46 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:46 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:46 ICT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:46 ICT" name="before" finished-at="2024-08-03T16:17:46 ICT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormWithUserRoleEmptyPassword()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:46 ICT" name="testUserFormWithUserRoleEmptyPassword" finished-at="2024-08-03T16:17:47 ICT" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormWithUserRoleEmptyPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:47 ICT" name="afterMethod" finished-at="2024-08-03T16:17:47 ICT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:47 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:47 ICT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="before()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:47 ICT" name="before" finished-at="2024-08-03T16:17:47 ICT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="testUserFormWithUserRoleEmptyUsername()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:47 ICT" name="testUserFormWithUserRoleEmptyUsername" finished-at="2024-08-03T16:17:47 ICT" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserFormWithUserRoleEmptyUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:47 ICT" name="afterMethod" finished-at="2024-08-03T16:17:47 ICT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod1()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:47 ICT" name="afterMethod1" finished-at="2024-08-03T16:17:48 ICT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestWeb@28701274]" started-at="2024-08-03T16:17:48 ICT" name="tearDown" finished-at="2024-08-03T16:17:48 ICT" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestWeb -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

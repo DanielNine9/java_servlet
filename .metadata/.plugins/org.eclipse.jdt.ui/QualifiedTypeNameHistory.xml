@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
-    <fullyQualifiedTypeName name="bean.User"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
@@ -33,7 +32,6 @@
     <fullyQualifiedTypeName name="bean.Report"/>
     <fullyQualifiedTypeName name="bean.Video"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="models.Product"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpFilter"/>
@@ -43,13 +41,20 @@
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSessionEvent"/>
     <fullyQualifiedTypeName name="java.nio.file.StandardOpenOption"/>
     <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.nio.file.Files"/>
     <fullyQualifiedTypeName name="java.nio.file.Paths"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebListener"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
-    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="javax.mail.Session"/>
+    <fullyQualifiedTypeName name="bean.User"/>
+    <fullyQualifiedTypeName name="utils.RRSharer"/>
+    <fullyQualifiedTypeName name="bean.Product"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="daos.EntityDAO"/>
+    <fullyQualifiedTypeName name="beans.EntityName"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.management.Query"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

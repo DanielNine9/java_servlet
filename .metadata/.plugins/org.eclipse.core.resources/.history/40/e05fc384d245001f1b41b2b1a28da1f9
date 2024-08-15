@@ -1,9 +1,0 @@
-
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-Welcome, ${sessionScope.user.getFullname()}
-<c:if test="${not empty $sessionScope.user}">
-		Welcome, ${sessionScope.user.getFullname()}
-	</c:if>
-<c:if test="${empty applicationScope.user}">
-		Welcome to my website
-	</c:if>

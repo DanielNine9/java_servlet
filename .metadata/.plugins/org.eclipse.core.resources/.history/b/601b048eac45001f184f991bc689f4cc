@@ -1,9 +1,0 @@
-package servlet;
-
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-
-@WebServlet({"/bai2/home", "/bai2/login", "bai2/logout", "bai2/register","bai2/change-password",})
-public class Bai2Servlet extends HttpServlet {
-
-}

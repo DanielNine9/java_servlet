@@ -13,7 +13,7 @@
 				value="jdbc:sqlserver://localhost:1433;database=polyoe_new" />
 			<property name="javax.persistence.jdbc.user" value="sa" />
 			<property name="javax.persistence.jdbc.password" value="1234" />
-			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.show_sql" value="false" />
 			<property name="hibernate.format_sql" value="true" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
 		</properties>

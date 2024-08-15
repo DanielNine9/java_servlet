@@ -156,6 +156,7 @@ public class FindServlet extends HttpServlet {
 		if (methodString.equalsIgnoreCase("post")) {
 			try {
 				String keyword = req.getParameter("keyword");
+				System.out.println("keyword " + keyword);
 				VideoDAO dao = new VideoDAO();
 				List<Video> videos = dao.findByTitle(keyword);
 				req.setAttribute("videos", videos);

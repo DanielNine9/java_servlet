@@ -1,9 +1,0 @@
-import dao.ReportDAO;
-
-public class test {
-	public static void main(String[] args) {
-		ReportDAO dao = new ReportDAO();
-		dao.favoriteByYear(2022);
-	}
-
-}

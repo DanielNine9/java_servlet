@@ -3,6 +3,7 @@ package servlets;
 import java.io.IOException;
 
 import java.lang.reflect.InvocationTargetException;
+import java.util.List;
 import java.util.Map;
 
 import javax.servlet.ServletException;
@@ -16,11 +17,23 @@ import org.apache.commons.beanutils.BeanUtils;
 import bean.User;
 import dao.UserDAO;
 
-@WebServlet({ "/user/index", "/user/edit/*", "/user/create", "/user/update", "/user/delete" })
+@WebServlet({ "/user/index", "/user/edit/*", "/user/create", "/user/update", "/user/delete" , "/user/find"})
 public class UserServlet extends HttpServlet {
 	private static final int DEFAULT_PAGE_SIZE = 5;
 
-
+	
+	public void find(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String find = req.getParameter("find");
+        System.out.println("find " + find);
+        UserDAO dao = new UserDAO();
+        List<User> users = dao.find(find);
+        
+        req.setAttribute("items", users);
+        
+        req.setAttribute("form", null);
+    	req.getRequestDispatcher("/management/index.jsp").forward(req, resp);
+    }
+	
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		req.setCharacterEncoding("UTF-8");
@@ -74,7 +87,7 @@ public class UserServlet extends HttpServlet {
 					req.setAttribute("message", "Username đã tồn tại.");
 					req.setAttribute("form", null);
 					req.setAttribute("items", dao.findAll(page, pageSize));
-					req.getRequestDispatcher("/index.jsp").forward(req, resp);
+					req.getRequestDispatcher("/management/index.jsp").forward(req, resp);
 					return;
 				}
 
@@ -90,7 +103,7 @@ public class UserServlet extends HttpServlet {
 							req.setAttribute("message", "Vui lòng nhập đầy đủ tất cả các trường");
 							req.setAttribute("form", null);
 							req.setAttribute("items", dao.findAll(page, pageSize));
-							req.getRequestDispatcher("/index.jsp").forward(req, resp);
+							req.getRequestDispatcher("/management/index.jsp").forward(req, resp);
 							return;
 						}
 					}
@@ -115,12 +128,19 @@ public class UserServlet extends HttpServlet {
 				String id = req.getParameter("id");
 
 				user = dao.findById(id);
+				if(user == null) {
+					req.setAttribute("message", "Không tìm thấy id " + id);
+					
+				}else {
+					System.out.println("id " + id);
+					BeanUtils.populate(user, req.getParameterMap());
 
-				BeanUtils.populate(user, req.getParameterMap());
+					dao.update(user);
+					req.setAttribute("success", "Cập nhật thành công");
+				}
+			
 
-				dao.update(user);
 				user = null;
-				req.setAttribute("success", "Cập nhật thành công");
 			} catch (IllegalAccessException | InvocationTargetException e) {
 				req.setAttribute("message", "Cập nhật thất bại");
 				e.printStackTrace();
@@ -129,6 +149,10 @@ public class UserServlet extends HttpServlet {
 			String id = req.getParameter("id");
 			dao.remove(id);
 			req.setAttribute("success", "Xoá thành công");
+		} else if (uri.contains("find")) {
+			this.find(req, resp);
+			return;
+			
 		}
 		long totalItems = dao.count();
 		System.out.println("totalItems " + totalItems);

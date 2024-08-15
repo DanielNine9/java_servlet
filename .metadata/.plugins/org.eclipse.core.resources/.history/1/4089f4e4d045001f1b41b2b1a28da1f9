@@ -1,4 +1,0 @@
-Welcome my
-<c:if test="${not empty applicationScope.user}">
-		${applicationScope.user.fullname }
-	</c:if>

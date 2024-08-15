@@ -1,0 +1,5 @@
+<web-app>
+    <listener>
+        <listener-class>listeners.AppListener</listener-class>
+    </listener>
+</web-app>

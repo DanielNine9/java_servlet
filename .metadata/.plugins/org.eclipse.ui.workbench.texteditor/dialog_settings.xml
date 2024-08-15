@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="reset"/>
+		<item key="selection" value="huydqpc07859_09082024"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="lab7"/>
+			<item value="update"/>
+			<item value="User"/>
+			<item value="UserDAO"/>
+			<item value="choose-month"/>
+			<item value="choose"/>
+			<item value="find-vi"/>
+			<item value="alert"/>
+			<item value="testUserFormSubmission"/>
 			<item value="reset"/>
+			<item value="index"/>
 			<item value="f"/>
 			<item value="create"/>
 			<item value="your cart is empty"/>
 			<item value="your cart is emptu"/>
-			<item value="your cart"/>
-			<item value="ReportDAO"/>
-			<item value="reportdao"/>
-			<item value="chooseMonth"/>
-			<item value="form"/>
-			<item value="Id"/>
-			<item value="id"/>
-			<item value="alert"/>
-			<item value="listVids.jsp"/>
-			<item value="url"/>
 		</list>
 		<list key="replacehistory">
+			<item value="huydqpc07859_09082024"/>
+			<item value="huydqpc07859_09092024"/>
+			<item value="User"/>
+			<item value="EntityName"/>
+			<item value="EntityDAO"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

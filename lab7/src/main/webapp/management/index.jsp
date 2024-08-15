@@ -49,29 +49,30 @@
 		<form class="mx-auto w-50 border my-4 p-4" action="${url}/index"
 			method="post">
 
-			<h3 class="text-danger text-center">User Form</h3>
-			<label>Username: </label> <input class="form-control"
+			<h3 id="title-user" class="text-danger text-center">User Form</h3>
+			<label>Username: </label> <input id="username" class="form-control"
 				value="${form.id}" name="id" placeholder="Username?"> <label>Password:</label>
-			<input class="form-control" value="${form.password}" name="password"
-				placeholder="Password?" type="password"> <label>Fullname:</label>
-			<input class="form-control" value="${form.fullname}" name="fullname"
-				placeholder="Fullname?"> <label>Email:</label> <input
-				class="form-control" value="${form.email}" name="email"
-				placeholder="Email?"> <label>Role:</label><br> <input
-				${form.admin ? 'checked' : ''} id="adminRole" name="admin"
+			<input id="password" class="form-control" value="${form.password}"
+				name="password" placeholder="Password?" type="password"> <label>Fullname:</label>
+			<input id="fullname" class="form-control" value="${form.fullname}"
+				name="fullname" placeholder="Fullname?"> <label>Email:</label>
+			<input id="email" class="form-control" value="${form.email}"
+				name="email" placeholder="Email?"> <label>Role:</label><br>
+			<input ${form.admin ? 'checked' : ''} id="adminRole" name="admin"
 				type="radio" value="true"> <label for="adminRole">Admin</label>
 			<input id="userRole" ${form.admin ? '' : 'checked'} name="admin"
 				type="radio" value="false"> <label for="userRole">User</label><br>
 			<hr>
-			<button class="btn btn-primary" formaction="${url}/create"
-				${edit ? 'disabled' : ''}>Create</button>
-			<button class="btn btn-warning" formaction="${url}/update"
-				${!edit ? 'disabled' : ''}>Update</button>
-			<a href="${url}/index" class="btn btn-secondary" name="reset">Reset</a>
+			<button id="create" class="btn btn-primary"
+				formaction="${url}/create" ${edit ? 'disabled' : ''}>Create</button>
+			<button id="update" class="btn btn-warning"
+				formaction="${url}/update" ${!edit ? 'disabled' : ''}>Update</button>
+			<a id="reset" href="${url}/index" class="btn btn-secondary"
+				name="reset">Reset</a>
 		</form>
 
 		<!-- Messages -->
-		<div class="mt-3 w-50 mx-auto">
+		<div id="alert" class="mt-3 w-50 mx-auto">
 			<c:if test="${not empty message}">
 				<div class="alert alert-danger">${message}</div>
 			</c:if>
@@ -79,6 +80,12 @@
 				<div class="alert alert-success">${success}</div>
 			</c:if>
 		</div>
+
+		<form action="${url}/find" class="w-50 border p-4 mx-auto">
+			<h3 class="text-center text-danger">Find</h3>
+			<input class="form-control" name="find">
+			<button class="my-2 btn btn-primary">Search</button>
+		</form>
 
 		<!-- User Table -->
 		<table class="table mx-auto w-50 table-striped table-hover">
@@ -102,7 +109,7 @@
 						<td>${item.admin ? 'Admin' : 'User'}</td>
 						<td><a class="btn btn-warning" href="${url}/edit/${item.id}">Edit</a>
 							<a class="btn btn-danger" href="#" data-bs-toggle="modal"
-							data-bs-target="#deleteConfirmationModal"
+							id="delete${item.id}" data-bs-target="#deleteConfirmationModal"
 							onclick="prepareDelete('${item.id}', '${item.id}')">Delete</a></td>
 					</tr>
 				</c:forEach>

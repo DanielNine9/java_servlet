@@ -1,6 +1,5 @@
 use polyoe_new
-
-drop proc spFavoriteByYear
+go
 
 CREATE PROC spFavoriteByYear(@Year INT)
 AS
